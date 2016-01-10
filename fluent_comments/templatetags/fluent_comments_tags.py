@@ -1,6 +1,5 @@
 from django.conf import settings
-from django.template import Library, Node
-from django.core import context_processors
+from django.template import Library, Node, context_processors
 from django.template.loader import get_template
 from tag_parser import parse_token_kwargs
 from tag_parser.basetags import BaseInclusionNode
